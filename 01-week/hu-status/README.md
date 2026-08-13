@@ -5,8 +5,8 @@
 # Weekly Status - Week 01
 
 <!-- CONFIG-START - must match your profile repo (username/username) CONFIG -->
-- FULL_NAME:
-- GITHUB_USER:
+- FULL_NAME:Elkin Stiven Contreras Rojas
+- GITHUB_USER:contreras-elkin
 - TEAM:
 - SPRINT_GOAL:
 <!-- CONFIG-END -->
@@ -20,7 +20,7 @@
 -
 
 ## 3. Blockers and risks
--
+
 
 ## 4. Plan for next week
 -
