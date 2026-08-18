@@ -5,10 +5,10 @@
 # Weekly Status - Week 02
 
 <!-- CONFIG-START - must match your profile repo (username/username) CONFIG -->
-- FULL_NAME:
-- GITHUB_USER:
-- TEAM:
-- SPRINT_GOAL:
+- FULL_NAME: Elkin Stiven Contreras Rojas
+- GITHUB_USER: contreras-elkin
+- TEAM:contreras-elkin
+- SPRINT_GOAL:Understand the distributed-architecture styles and the planning path (bounded contexts, ADR) for the product, and connect them to how the team will manage work with Scrum/Kanban
 <!-- CONFIG-END -->
 
 ## 1. User stories worked this week
@@ -17,13 +17,14 @@
 | HU-XXX-001 |  |  |  |
 
 ## 2. My individual contribution
--
+- Reviewed the Week 2 sessions on distributed architectures and on planning (bounded contexts, decision path, ADR).
+- Wrote a theory document (ES and EN) on Scrum and Kanban, connecting Scrum roles/events/artifacts and Kanban's practices/metrics to the course's ADR/bounded-context planning cycle.
 
 ## 3. Blockers and risks
 -
 
 ## 4. Plan for next week
--
+- Define the services that are going to be implemented first
 
 ## 5. Compliance self-check
 - [ ] Conventional Commits - `type(scope): summary`
