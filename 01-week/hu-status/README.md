@@ -14,7 +14,7 @@
 ## 1. User stories worked this week
 | HU ID | Title | Status (todo/doing/done) | Evidence (PR or commit URL) |
 |---|---|---|---|
-| HU-XXX-001 | Define the PDR along with the services that are going to be implemented | doing | _add PR/commit URL_ |
+| HU-XXX-001 | Define the PDR along with the services that are going to be implemented | doing | [_add PR/commit URL_](https://github.com/code-corhuila/sistemas-distribuidos-2026-b-g2/commit/243f62714997036337b7e671a414f0a06433c645) |
 
 ## 2. My individual contribution
 
