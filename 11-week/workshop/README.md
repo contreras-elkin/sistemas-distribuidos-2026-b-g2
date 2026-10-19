@@ -4,5 +4,5 @@
 - TEAM: Elkin Stiven Contreras Rojas - Alejandro Ortiz Vargas
 - DOCS_REPO: https://github.com/code-corhuila/market-agri-docs
 - REFLECTION_DOC: https://docs.google.com/document/d/107CTcHgRWDpVVavA7IUdSCoVrhhQLiHv2_lqZ60Ws7w/edit?usp=sharing
-- JOURNEY: (se escribe en el CP1)
+- JOURNEY: Buyer checkout (HU-TXN-001) - front -> api-gateway -> workflow saga -> chat / catalog / transactions -> RabbitMQ -> worker
 <!-- CONFIG-END -->
