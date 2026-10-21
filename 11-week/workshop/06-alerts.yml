@@ -1,0 +1,63 @@
+# CP7 - Burn-rate alerts for SLO 1 (checkout availability 99.5 %, 30 days), see 05-slo.md.
+# Error budget = 0.005. Threshold = burn rate x 0.005.
+#   fast: 14.4 x 0.005 = 0.072 (1 h window, confirmed by the 5 m window)
+#   slow:  6   x 0.005 = 0.030 (6 h window, confirmed by the 30 m window)
+groups:
+  - name: workflow-checkout-slo
+    rules:
+      - record: workflow:checkout_error_ratio:rate5m
+        expr: |
+          sum(rate(workflow_checkout_requests_total{outcome="error"}[5m]))
+          /
+          sum(rate(workflow_checkout_requests_total{outcome=~"success|error"}[5m]))
+      - record: workflow:checkout_error_ratio:rate30m
+        expr: |
+          sum(rate(workflow_checkout_requests_total{outcome="error"}[30m]))
+          /
+          sum(rate(workflow_checkout_requests_total{outcome=~"success|error"}[30m]))
+      - record: workflow:checkout_error_ratio:rate1h
+        expr: |
+          sum(rate(workflow_checkout_requests_total{outcome="error"}[1h]))
+          /
+          sum(rate(workflow_checkout_requests_total{outcome=~"success|error"}[1h]))
+      - record: workflow:checkout_error_ratio:rate6h
+        expr: |
+          sum(rate(workflow_checkout_requests_total{outcome="error"}[6h]))
+          /
+          sum(rate(workflow_checkout_requests_total{outcome=~"success|error"}[6h]))
+
+      - alert: CheckoutErrorBudgetFastBurn
+        expr: |
+          workflow:checkout_error_ratio:rate1h > (14.4 * 0.005)
+          and
+          workflow:checkout_error_ratio:rate5m > (14.4 * 0.005)
+          and
+          sum(increase(workflow_checkout_requests_total{outcome=~"success|error"}[1h])) >= 5
+        for: 5m
+        labels:
+          severity: page
+          team: market-agri
+          service: workflow-service
+          slo: checkout-availability
+        annotations:
+          summary: "Checkout is burning its error budget 14.4x too fast (2 % of the month in 1 h)"
+          description: "Error ratio of POST /api/v1/workflow/checkouts over 1 h is {{ $value | humanizePercentage }}. Buyers cannot start payments."
+          runbook_url: "https://github.com/contreras-elkin/sistemas-distribuidos-2026-b-g2/blob/main/11-week/workshop/07-runbook.md"
+
+      - alert: CheckoutErrorBudgetSlowBurn
+        expr: |
+          workflow:checkout_error_ratio:rate6h > (6 * 0.005)
+          and
+          workflow:checkout_error_ratio:rate30m > (6 * 0.005)
+          and
+          sum(increase(workflow_checkout_requests_total{outcome=~"success|error"}[6h])) >= 10
+        for: 30m
+        labels:
+          severity: ticket
+          team: market-agri
+          service: workflow-service
+          slo: checkout-availability
+        annotations:
+          summary: "Checkout is burning its error budget 6x too fast (5 % of the month in 6 h)"
+          description: "Error ratio of POST /api/v1/workflow/checkouts over 6 h is {{ $value | humanizePercentage }}."
+          runbook_url: "https://github.com/contreras-elkin/sistemas-distribuidos-2026-b-g2/blob/main/11-week/workshop/07-runbook.md"
