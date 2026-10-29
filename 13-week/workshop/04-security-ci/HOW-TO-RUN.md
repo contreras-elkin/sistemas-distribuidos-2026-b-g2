@@ -13,7 +13,7 @@ rule and the test live in this minimal module first. They are a proposal for tha
 
 ## Story and acceptance criterion covered
 
-- Issue: `[security] Only an ADMIN can read the platform transactions and ledger` (<ISSUE_URL_1>)
+- Issue: `[security] Only an ADMIN can read the platform transactions and ledger` (https://github.com/code-corhuila/market-agri-docs/issues/88)
 - STRIDE **E**, risk 6, label `P1`. Boundary TB2: api-gateway -> transactions-api.
 - Criterion 1: `GET /api/v1/transactions/admin/transactions` (E-44) with a `BUYER` or `PRODUCER`
   token returns `403`. Criterion 3: an automated negative test covers it and runs in CI.
