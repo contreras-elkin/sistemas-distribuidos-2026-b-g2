@@ -6,14 +6,14 @@
 
 | Field | Value |
 |---|---|
-| Full name | <Full name exactly as in Moodle> |
-| GitHub user | <github-user> |
-| Group | <G1 or G2> |
-| Team | <Team name> |
+| Full name | Elkin Stiven Contreras Rojas |
+| GitHub user | contreras-elkin |
+| Group | G2  |
+| Team | Elkin Stiven Contreras Rojas, Alejandro Ortiz Vargas |
 | Team -docs repository | <https://github.com/code-corhuila/...-docs> |
-| Course | <Exact course name> |
-| Course link | <Course URL> |
-| Start date | <YYYY-MM-DD> |
+| Course | HCCDP-Solution Architectures Course |
+| Course link | https://e.huawei.com/en/talent/outPage/#/sxz-course/home?courseId=I4bs1u--tD4kL8Fg3clrbgvqnhA&pageType=learn&operate=1|
+| Start date | 2026-10-28 |
 | Completion date | <YYYY-MM-DD> |
 
 ## Study log
