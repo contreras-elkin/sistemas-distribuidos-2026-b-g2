@@ -10,8 +10,9 @@ Project: **market-agri** (agricultural marketplace). Team -docs: `code-corhuila/
 - BOUNDARY: TB2 - api-gateway (NGINX) -> transactions-api (E-41..E-45, including the payment webhook E-43)
 - CLAIM_ISSUE: https://github.com/code-corhuila/market-agri-docs/issues/86
 - REFLECTION_DOC: https://docs.google.com/document/d/1KHRAEOd73Y3xgmL8pTg3_OcqGXRCWiy_1DisW5Cm3lM/edit?tab=t.0
-- LIBRARY_BOOK: <author, title, edition, year, call number>
-- LIBRARY_RECORD_TIME: <hh:mm>
+- LIBRARY_BOOK: Zapata, C. M., & Gonzales-Calderon, G. Ingenieria del software e ingenieria del conocimiento: dos disciplinas interrelacionadas. 1st ed., 2014. Call number 005.1 G643i Ej.1 (p. 356)
+- LIBRARY_RECORD_TIME: 08:55
+- STORIES: https://github.com/code-corhuila/market-agri-docs/issues/88 , https://github.com/code-corhuila/market-agri-docs/issues/89 , https://github.com/code-corhuila/market-agri-docs/issues/90
 <!-- CONFIG-END -->
 
 ## Files
