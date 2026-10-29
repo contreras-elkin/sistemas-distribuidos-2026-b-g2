@@ -8,8 +8,8 @@ Project: **market-agri** (agricultural marketplace). Team -docs: `code-corhuila/
 - TEAM: Elkin Stiven Contreras Rojas, Alejandro Ortiz Vargas
 - DOCS_REPO: https://github.com/code-corhuila/market-agri-docs
 - BOUNDARY: TB2 - api-gateway (NGINX) -> transactions-api (E-41..E-45, including the payment webhook E-43)
-- CLAIM_ISSUE: <CLAIM_ISSUE_URL>
-- REFLECTION_DOC: <REFLECTION_DOC_URL>
+- CLAIM_ISSUE: https://github.com/code-corhuila/market-agri-docs/issues/86
+- REFLECTION_DOC: https://docs.google.com/document/d/1KHRAEOd73Y3xgmL8pTg3_OcqGXRCWiy_1DisW5Cm3lM/edit?tab=t.0
 - LIBRARY_BOOK: <author, title, edition, year, call number>
 - LIBRARY_RECORD_TIME: <hh:mm>
 <!-- CONFIG-END -->
