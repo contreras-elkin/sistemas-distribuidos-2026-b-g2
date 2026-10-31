@@ -84,3 +84,6 @@ flowchart LR
 | Port `8080` of transactions-api | Only the gateway (and workflow for I-06) | Not published to the host; Compose network only |
 
 `/internal/v1/transactions` (I-06) is **not** routed by the gateway; it belongs to TB3.
+
+**Update (CP6):** E-43 comes from Stripe, not from a browser, and is the boundary of @alejandro538
+(#84, PR #85). My STRIDE covers E-41, E-42, E-44 and E-45.
