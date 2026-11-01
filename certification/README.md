@@ -20,8 +20,9 @@
 
 | Date | Hours | Chapters or labs | Evidence file |
 |---|---|---|---|
-| <YYYY-MM-DD> | <h> | <Chapters or labs> | <evidence/NN-....png> |
-| Total | <sum> | | |
+| 2026-10-30 | 2 | Chapter 1| evidence/01-chapter-01.png|
+| 2026-10-31 | 2 | Chapter 2| evidence/02-chapter-02.png|
+| Total | 4 | | |
 
 ## Labs
 
