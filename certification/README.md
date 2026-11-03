@@ -22,10 +22,12 @@
 |---|---|---|---|
 | 2026-10-30 | 2 | Chapter 1| evidence/01-chapter-01.png|
 | 2026-10-31 | 2 | Chapter 2| evidence/02-chapter-02.png|
-| 2026-10-31 | 2 | Chapter 3| evidence/02-chapter-03.png|
-| 2026-10-31 | 2 | Chapter 4| evidence/02-chapter-04.png|
-| 2026-11-1 | 2 | Chapter 5| evidence/02-chapter-05.png|
-| 2026-11-1 | 2 | Chapter 6| evidence/02-chapter-06.png|
+| 2026-10-31 | 2 | Chapter 3| evidence/03-chapter-03.png|
+| 2026-10-31 | 2 | Chapter 4| evidence/04-chapter-04.png|
+| 2026-11-1 | 2 | Chapter 5| evidence/05-chapter-05.png|
+| 2026-11-1 | 2 | Chapter 6| evidence/06-chapter-06.png|
+| 2026-11-3 | 3 | Chapter 7| evidence/07-chapter-07.png|
+| 2026-11-3 | 2 | Chapter 8| evidence/08-chapter-08.png|
 | Total | 4 | | |
 
 ## Labs
