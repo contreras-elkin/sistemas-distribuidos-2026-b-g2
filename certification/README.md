@@ -30,7 +30,10 @@
 | 2026-11-3 | 2 | Chapter 8| evidence/08-chapter-08.png|
 | 2026-11-4 | 2 | Chapter 9| evidence/09-chapter-09.png|
 | 2026-11-5 | 2 | Chapter 10| evidence/10-chapter-10.png|
-| 2026-11-5 | 2 | Chapter 11| evidence/11-chapter-11.png|
+| 2026-11-6 | 2 | Design| design/architecture-design-note.md|
+| 2026-11-7 | 3 | Design| design/target-architecture|
+| 2026-11-8 | 3 | Design| design/architecture-design-note.md|
+| 2026-11-9 | 2 | Design| design/architecture-design-note.md|
 | Total | 4 | | |
 
 ## Labs
